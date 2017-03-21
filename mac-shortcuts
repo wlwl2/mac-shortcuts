@@ -1,0 +1,43 @@
+{
+  "action": "What the keyboard shortcut does.",
+  "command": "The keyboard shortcut that the user presses.",
+  "keywords": "Keywords describing the function of the keyboard shortcut.",
+  "usagePriority": "The chance of this key being used.
+                    For example, 1 represents the most used key, 2 is the
+                    second most used key, and so on.",
+  "operatingSystem": "The operating system that this command is used in.",
+  "application": "The application that this command is used in."
+}
+
+{
+  "action": "Lock Mac Screen/Put Mac to sleep",
+  "command": "control + shift + power",
+  "keywords": "lock mac screen sleep put to",
+  "usagePriority": 1,
+  "operatingSystem": "macOS Sierra Version: 10.12.3 Build: 16D32",
+  "application": null
+},
+{
+  action: "close window",
+  command: "control + w",
+  "keywords": "close window",
+  "usagePriority": 2,
+  "operatingSystem": "macOS Sierra Version: 10.12.3 Build: 16D32",
+  "application": null
+},
+{
+  action: "empty trash",
+  command: "shift + command + delete",
+  "keywords": "empty trash",
+  "usagePriority": 3,
+  "operatingSystem": "macOS Sierra Version: 10.12.3 Build: 16D32",
+  "application": null
+},
+{
+  action: "send item to trash/ delete file/item",
+  command: "command + delete",
+  "keywords": "send to trash delete file item",
+  "usagePriority": 4,
+  "operatingSystem": "macOS Sierra Version: 10.12.3 Build: 16D32",
+  "application": null
+},
